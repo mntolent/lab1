@@ -14,6 +14,11 @@
 body {
      border: 1px dotted gray;
      padding: 20px;
+
+     /*Added In Lab*/
+     background: linear-gradient(rgb(180, 120, 180), white);
+
+     text-align: center;
 }
 
 .jumbotron {
@@ -31,4 +36,37 @@ body {
      right: 0;
      position: absolute;
      z-index: -1;
+}
+
+#me {
+     width: 30vw;
+     border-radius: 50%;
+}
+
+.project {
+     margin-left: 20px;
+}
+
+.project-images {
+     width: 50vw;
+}
+
+.intro, p, h4 {
+     font-family: "Avenir";
+}
+
+.intro h1 {
+     letter-spacing: 0.5vw;
+}
+
+.intro p {
+     color: rgb(39, 39, 39);
+}
+
+a {
+    text-decoration: none; 
+}
+
+a p:hover {
+     opacity: 0.5;
 }
